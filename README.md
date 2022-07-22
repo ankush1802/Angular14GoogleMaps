@@ -115,7 +115,7 @@ export class GoogleMapsDemoComponent {
 
 ## Services
 
-- [`MapGeocoder`](./map-geocoder/README.md)
+- MapGeocoder
 
 
 ## The Options Input
