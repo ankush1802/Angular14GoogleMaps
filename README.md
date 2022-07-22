@@ -98,20 +98,20 @@ export class GoogleMapsDemoComponent {
 
 ## Components
 
-- [`GoogleMap`](./google-map/README.md)
-- [`MapMarker`](./map-marker/README.md)
-- [`MapInfoWindow`](./map-info-window/README.md)
-- [`MapPolyline`](./map-polyline/README.md)
-- [`MapPolygon`](./map-polygon/README.md)
-- [`MapRectangle`](./map-rectangle/README.md)
-- [`MapCircle`](./map-circle/README.md)
-- [`MapGroundOverlay`](./map-ground-overlay/README.md)
-- [`MapKmlLayer`](./map-kml-layer/README.md)
-- [`MapTrafficLayer`](./map-traffic-layer/README.md)
-- [`MapTransitLayer`](./map-transit-layer/README.md)
-- [`MapBicyclingLayer`](./map-bicycling-layer/README.md)
-- [`MapDirectionsRenderer`](./map-directions-renderer/README.md)
-- [`MapHeatmapLayer`](./map-heatmap-layer/README.md)
+- GoogleMap
+- MapMarker
+- MapInfoWindow
+- MapPolyline
+- MapPolygon
+- MapRectangle
+- MapCircle
+- MapGroundOverlay
+- MapKmlLayer
+- MapTrafficLayer
+- MapTransitLayer
+- MapBicyclingLayer
+- MapDirectionsRenderer
+- MapHeatmapLayer
 
 ## Services
 
