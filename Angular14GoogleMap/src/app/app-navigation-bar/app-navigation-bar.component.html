@@ -1,0 +1,71 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" [routerLink]="['/']">Core Knowledge Sharing</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLinkActive="active" [routerLink]="['/']"
+                        [routerLinkActiveOptions]="{exact:
+                            true}">Google Map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLinkActive="active"
+                        [routerLink]="['/map-marker']">Marker</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLinkActive="active"
+                        [routerLink]="['/map-info-window']">Info Window</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLinkActive="active"
+                        [routerLink]="['/map-polyline']">Polyline</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLinkActive="active"
+                        [routerLink]="['/map-polygon']">Polygon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLinkActive="active"
+                        [routerLink]="['/map-rectangle']">Rectangle</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLinkActive="active"
+                        [routerLink]="['/map-circle']">Circle</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLinkActive="active"
+                        [routerLink]="['/map-ground-overlay']">Ground Overlay</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLinkActive="active"
+                        [routerLink]="['/map-kml-layer']">KML Layer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLinkActive="active"
+                        [routerLink]="['/map-traffic-layer']">Traffic Layer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLinkActive="active"
+                        [routerLink]="['/map-transit-layer']">Transient Layer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLinkActive="active"
+                        [routerLink]="['/map-bicycling-layer']">Bicycling Layer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLinkActive="active"
+                        [routerLink]="['/map-directions-renderer']">Directions Renderer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLinkActive="active"
+                        [routerLink]="['/map-heatmap-layer']">Heatmap Layer</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
